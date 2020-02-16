@@ -1,6 +1,6 @@
 - name: Home
-  link: /
+  link: /texture/
 - name: About
-  link: /about/
+  link: /texture/about/
 - name: Genres
-  link: /genre/
+  link: /texture/genre/
