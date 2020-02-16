@@ -4,7 +4,7 @@ email: fooman.in@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   I share here my learning and views.
 show_excerpts: true # set to true to show excerpts on the homepage
-baseurl: /texture
+# baseurl: /texture
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
