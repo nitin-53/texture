@@ -6,11 +6,27 @@
 		<a href="/about"><li>About</li></a>
 	</ul>
 	-->
+	<!--
 	<ul>
 		{% for item in site.data.nav %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: orange"{% endif %}><li>{{ item.name }}</li></a>
-    {% endfor %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: orange"{% endif %}><li>{{ item.name }}</li></a>
+        {% endfor %}
 	</ul>
-
+	 -->
+	{% for item in site.data.mainNav %}
+	<a href="{{ item.link }}" {% if page.url == item.link %}style="color: orange"{% endif %}>{{ item.name }}</a>
+	{% endfor %} 
+	
+    <div class="dropdown">
+    	<button class="dropbtn">More 
+      		<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div class="dropdown-content">
+			{% for item1 in site.data.moreNav %}
+			<a href="{{ item1.link }}" {% if page.url == item1.link %}style="color: orange"{% endif %}>{{ item1.name }}</a>
+			{% endfor %}
+			
+    	</div>
+    </div> 
 </div>
 {%- endif -%}

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: gene
+author: "karan"
 title:  "Hello, Jekyll"
 date:   2019-05-23 21:03:36 +0530
 ---

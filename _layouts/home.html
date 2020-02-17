@@ -12,6 +12,12 @@ layout: page
 			</a>
 			<div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
 		</div>
+		<div class="post-writer">
+			{% assign author = site.authors | where: 'short_name', post.author | first %}
+			{% if author %}
+			- <a href="{{ author.url | relative_url }}">{{ author.name | escape }}</a>
+			{% endif %}
+		</div>
 		<div class="post">
 			{%- if site.show_excerpts -%}
 			{{ post.excerpt }}

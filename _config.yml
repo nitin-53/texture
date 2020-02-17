@@ -16,7 +16,7 @@ texture:
   title: fooMan
   tagline: Programmer. Reader
   date_format: "%b %-d, %Y"
-  style: purple
+  style: blue
   showNav: true
   showPicker: false
 
@@ -45,6 +45,8 @@ plugins:
 
 collections:
   types:
+    output: true
+  authors:
     output: true
 
 # Handling Reading

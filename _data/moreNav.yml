@@ -1,0 +1,4 @@
+- name: Genres
+  link: /genre/
+- name: Writers
+  link: /writer/
