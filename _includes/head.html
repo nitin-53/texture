@@ -24,8 +24,14 @@
 <meta name="msapplication-TileImage" content="/assets/images/icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-<!-- title tag is already incuded by seo plugin -->
 <!-- <title>{{ page.title | default: site.title }}</title> -->
+<title>
+    {% if page.title == site.title %}
+        {{ page.title }} | {{ page.tagline}}
+    {% else %}
+        {{ page.title }} | {{ site.title }}
+    {% endif %}
+</title>
 
 <!--adding keyword metadata of a post-->
 {% if page.categories %}
@@ -33,5 +39,5 @@
 {% endif %}
 
 
-{% seo %}
+{% seo title=false %}
 {% feed_meta %}
