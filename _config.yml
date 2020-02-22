@@ -12,6 +12,13 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 
+logo: /assets/images/icons/android-icon-192x192.png
+
+image:
+  path: /assets/images/icons/ms-icon-310x310.png
+  height: 300
+  width: 300
+
 permalink: /posts/:title/
 texture:
   title: fooMan
@@ -21,7 +28,7 @@ texture:
   showNav: true
   showPicker: false
 
-  # generate social links in footer
+  # generate social links in post-header
   social_links:
     email: fooman.in@gmail.com
     # twitter:
