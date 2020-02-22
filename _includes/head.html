@@ -4,6 +4,15 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>{{ page.title | default: site.title }}</title>
+
+<!-- title tag is already incuded by seo plugin -->
+<!-- <title>{{ page.title | default: site.title }}</title> -->
+
+<!--adding keyword metadata of a post-->
+{% if page.categories %}
+<meta name="keywords" content=" {{ page.categories | join: ', ' | escape }} ">
+{% endif %}
+
+
 {% seo %}
 {% feed_meta %}
