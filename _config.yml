@@ -1,8 +1,8 @@
-title: My Blog
+title: fooBlog
 author: fooMan
-email: fooman.in@gmail.com
+email: fooman[dot]in[at]gmail[dot]com
 description: > # this means to ignore newlines until "show_exerpts:"
-  I share here my learning and views.
+  Here, I share my learning and my thoughts; I write my views on various topics. Sometimes, some guest writers also contribute to this blog.
 show_excerpts: true # set to true to show excerpts on the homepage
 # baseurl: /texture
 
