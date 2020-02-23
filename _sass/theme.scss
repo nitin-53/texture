@@ -154,6 +154,7 @@ header {
 	color: #222;
 	transition: color .3s ease;
 	margin: .1em 0;
+	max-width: 500px; // this prevent calender to shorten when title is long in home.html
 	&:hover {
 		color: $gray;
 		border-bottom: 0;
