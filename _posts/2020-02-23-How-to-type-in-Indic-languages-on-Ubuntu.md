@@ -17,17 +17,17 @@ sudo apt-get install ibus-m17n
 ```
 
 ### Optional Steps
-sometimes more packages needs to be installed on some distros.
+sometimes more packages need to be installed on some distros.
 ```
 sudo apt-get install ibus m17n-db m17n-contrib ibus-gtk
 sudo apt-get install libm17n-0-dbg libm17n-0 libm17n-im-config0
 ```
 
 ## Step 2: Adding IBus to startup application
-From system's 'Setting/Preference', select the 'Startup Applications'. Add a new application; name it 'IBUS' or 'IBus' or 'IBusDaemon' or whatever you like. In command property, type `ibus-daemon`. Now save this setting and Done. Restart the system. Now in system's Setting/Preference' you can find 'Input Method' setting where you can change input methods.
+From the system's 'Setting/Preference', select the 'Startup Applications'. Add a new application; name it 'IBUS' or 'IBus' or 'IBusDaemon' or whatever you like. In command property, type `ibus-daemon`. Now save this setting and Done. Restart the system. Now in the system's Setting/Preference, you can find the 'Input Method' setting where you can change input methods.
 
 ## Step 3: Selecting various input method from IBus preferences.
-In system's Setting/Preference' you can find a new setting 'ibus preferences'. In this setting there is a menu on top called 'Input method'. Here you can add different input methods as you like. Default keyboard layout for languages is 'Inscript'. You can find different supported keyboard layouts [here](https://fedoraproject.org/wiki/I18N/Indic#Keyboard_Layouts "keyboard_layouts") by clicking on language name.
+In the system's Setting/Preference' you can find a new setting 'ibus preferences'. In this setting, there is a menu on top called 'Input method'. Here you can add different input methods as you like. Default keyboard layout for languages is 'Inscript'. You can find different supported keyboard layouts [here](https://fedoraproject.org/wiki/I18N/Indic#Keyboard_Layouts "keyboard_layouts") by clicking on language name.
 
 ## Step 4: Refering to Unicode
 You may not find some characters in given layouts for a specific language. These characters can be typed with the help of [Unicode](https://home.unicode.org/basic-info/overview/ "unicode") character codes. You can find Unicode chart [here](http://www.unicode.org/charts/ "unicode_chart") and characters codes can be found by clicking a script name of a desired language. For typing a Unicode character, press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd> and type the character code and press <kbd>Space</kbd>. Now, you will see character is printed.
