@@ -46,7 +46,7 @@ texture:
 # Build settings
 # theme: texture
 
-url: http://blog.fooman.in
+url: https://blog.fooman.in
 
 plugins:
   - jekyll-seo-tag
