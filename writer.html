@@ -8,7 +8,7 @@ title: writer
   {% for author in site.authors %}
     <li>
       <h3><a href="{{ author.url }}">{{ author.name }}</a></h3>
-      <h5>{{ author.position }}</h5>
+      <p>{{ author.position }}</p>
       <!-- <p>{{ author.content | markdownify }}</p> -->
     </li>
   {% endfor %}
