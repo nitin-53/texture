@@ -4,6 +4,7 @@ type: tech
 author: "fooman"
 title:  "How to type in Indic languages on LinuxMint"
 description: Typing Indic languages with the help of IBus on Linux Mint or on Ubuntu or on other similar Linux distros.
+image: /assets/images/20200223_post_1/main_image.png
 date:   2020-02-23 18:00:00 +0530
 categories: Indian Languages Ubuntu LinuxMint IBus m17n
 ---
