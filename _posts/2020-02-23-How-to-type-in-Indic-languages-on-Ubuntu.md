@@ -5,7 +5,7 @@ author: "fooman"
 title:  "How to type in Indic languages on Ubuntu"
 description: Typing Indic languages with the help of IBus on Ubuntu or on Linux Mint or on other similar Linux distros.
 date:   2020-02-23 18:00:00 +0530
-categories: IndianLanguages Ubuntu LinuxMint IBus m17n
+categories: Indian Languages Ubuntu Linux Mint IBus m17n
 ---
 [IBus](https://en.wikipedia.org/wiki/Intelligent_Input_Bus "wikipedia:IBus"){:target="_blank"} Intelligent Input Bus is an [Input Method](https://wiki.archlinux.org/index.php/Input_method "wikipedia:Input_method"){:target="_blank"} Framework which used to enter non-Latin characters. We will be using IBus to write in Indian Languages. 'm17n' is an Input Method Engine (IME) which allows input of many languages using input methods from 'm17n-db'.
 
