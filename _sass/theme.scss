@@ -61,7 +61,7 @@ figcaption {
 
 header {
 	// background-size: cover;
-	padding: 120px 0;
+	padding: 120px 0px 40px 0px; // bottom padding of cover is decreased from 120px to 40px
 	color: #fff;
 	overflow: hidden;
 	h2 {
