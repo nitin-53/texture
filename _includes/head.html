@@ -1,8 +1,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+<!--linking fonts for different scripts-->
+{% if page.lang == "hi" %}
+<link href="https://fonts.googleapis.com/css?family=Martel+Sans:400,700&display=swap&subset=devanagari,latin-ext" rel="stylesheet">
+{% else %}
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+{% endif %}
 <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+
+<!--changing font suitable to a particular language-->
+{% if page.lang == "hi" %}
+    <style>
+        body {
+            font-family: 'Martel Sans', sans-serif;
+        }
+    </style>
+{% endif %}
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!--favicon and app icons-->
