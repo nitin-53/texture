@@ -13,7 +13,7 @@ categories: Indian Languages Ubuntu LinuxMint IBus m17n
 ## Step 1: Installing ibus-m17n
 open the terminal and run below commands.
 ```
-sudo apt-get install ttf-indic-fonts
+sudo apt-get install fonts-indic
 sudo apt-get install ibus-m17n
 ```
 
